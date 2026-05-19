@@ -1,0 +1,6 @@
+.ipynb_checkpoints/
+__pycache__/
+.DS_Store
+*.pyc
+notebooks/*.ipynb
+!notebooks/smoke_test.py
