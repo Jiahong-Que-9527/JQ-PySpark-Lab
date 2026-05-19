@@ -4,3 +4,8 @@ __pycache__/
 *.pyc
 notebooks/*.ipynb
 !notebooks/smoke_test.py
+
+# Lesson output data (Parquet / CSV files produced by lessons).
+# Keep the directory itself (with a .gitkeep) so containers can mount it.
+data/*
+!data/.gitkeep
